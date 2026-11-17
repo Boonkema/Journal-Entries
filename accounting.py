@@ -17,6 +17,7 @@ import pandas as pd
 # ---------------------------------------------------------------------------
 # Company settings
 # ---------------------------------------------------------------------------
+COMPANY_NAME = "Lakeview Retail Co."           # fictional name shown on reports (change freely)
 YEAR_END = pd.Timestamp("2025-12-31")          # last day of the data
 PRACTICE_START = pd.Timestamp("2025-10-01")    # practice quarter = Q4 2025
 PRACTICE_END = pd.Timestamp("2025-12-31")
